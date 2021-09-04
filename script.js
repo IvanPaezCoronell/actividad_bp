@@ -114,3 +114,12 @@ function hotel(monto_presupuestal){
     \n Peditria ${p}`;
 }
 console.log(hotel(500));
+
+
+
+// #12 alquiler de DVD
+function dvd(n_peliculas,dias_peliculas){
+    let total_alquiler = n_peliculas * dias_peliculas * 1500
+    return `El valor total a pagar por el alquiler es ${total_alquiler}`
+}
+console.log(dvd(2,3));
