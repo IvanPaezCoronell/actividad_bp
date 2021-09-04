@@ -133,3 +133,12 @@ function agencia(n_personas){
     return `El total a pagar por el viaje es de ${iva}`; 
 }
 console.log(agencia(4));
+
+
+
+// #14 Cobro de una Habitacion
+function habitacion(dias_hospedar){
+    let pago_habitacion = (dias_hospedar * 200000) - 100000
+    return `Debe pagar: ${pago_habitacion}`;
+}
+console.log(habitacion(5));
