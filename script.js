@@ -142,3 +142,17 @@ function habitacion(dias_hospedar){
     return `Debe pagar: ${pago_habitacion}`;
 }
 console.log(habitacion(5));
+
+
+
+// #15 Microcreditos
+function microcreditos(prestamo){
+    let banco_intereses = (prestamo * 0.24) + prestamo
+    let cuotas2 = banco_intereses / 2
+    let cuotas_especiales = cuotas2 / 4
+    let cuotas_ordinarias = cuotas2 / 20
+    return `El monto total a pagar mas intereses es de: ${banco_intereses}
+    \n El valor a pagar por 4 cuotas especiales son de: ${cuotas_especiales}
+    \n El valor a pagar por 20 cuotas ordinarios son de: ${cuotas_ordinarias}`;
+}
+console.log(microcreditos(500));
