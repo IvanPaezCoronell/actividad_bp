@@ -4,3 +4,10 @@ function masa(presion, volumen, temperatura){
     return `La masa es: ${formula_masa}`;
 }
 console.log(masa (30 ,15,36));
+
+// #2 Calcular Numero de Pulsaciones
+function pulsaciones(edad){
+    let formula_pulsaciones = (200 - edad)/10
+    return `El numero de pulsaciones es de: ${formula_pulsaciones}`;
+}
+console.log(pulsaciones (15));
