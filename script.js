@@ -82,3 +82,12 @@ function profesores(horas){
     \n El valor total a pagar al profesor es de ${descuento}` 
 }
 console.log(profesores(8));
+
+
+
+// #9 Alquiler de tarjetas de llamadas
+function alquiler(tarjeta_inicial,tarjeta_final){
+    let costo_llamada = (tarjeta_inicial - tarjeta_final) / 0.2
+    return `El costo de la llamada es de: ${costo_llamada}`
+}
+console.log(alquiler(15,10));
