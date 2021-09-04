@@ -26,3 +26,12 @@ function porcentaje(p1,p2,p3){
     \n El porcentaje invertido de la 3ra persona es de ${porcentajep3}`;
 } 
 console.log(porcentaje(200,150,250));
+
+
+
+// #4 Intereses sobre el saldo ahorrado en un banco
+function saldo_ahorrado(saldo_inicial){
+    let saldo_final = (saldo_inicial * 0.015)+ saldo_inicial;
+    return `El saldo final es de ${saldo_final}`;
+}
+console.log(saldo_ahorrado(5000));
