@@ -35,3 +35,20 @@ function saldo_ahorrado(saldo_inicial){
     return `El saldo final es de ${saldo_final}`;
 }
 console.log(saldo_ahorrado(5000));
+
+
+
+// #5 Descuento sobre el sueldo base a trabajadores
+function sueldo_trabajadores(sueldo_t){
+    let pp = sueldo_t * 0.01;
+    let ss = sueldo_t * 0.04;
+    let sf = sueldo_t * 0.005;
+    let ca = sueldo_t * 0.05;
+    let sueldo_total = (sueldo_t - pp - ss - sf - ca);
+    return `El descuento por ley de politica publica es de : ${pp}
+    \n El descuento por seguro social es de: ${ss}
+    \n El descuento por seguro forzoso es de: ${sf}
+    \n El descuento por caja de ahorro es de: ${ca} 
+    \n El saldo total a pagar al trabajador es de ${sueldo_total}`;
+}
+console.log(sueldo_trabajadores(500));
