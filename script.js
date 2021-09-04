@@ -101,3 +101,16 @@ function revelado_fotos(n_fotos){
     return `El costo total con iva del revelado es de: ${costo_final}`
 }
 console.log(revelado_fotos(2));
+
+
+
+// #11 Dinero para cada area en un hospital
+function hotel(monto_presupuestal){
+    let g = monto_presupuestal * 0.40
+    let t = monto_presupuestal * 0.30
+    let p = monto_presupuestal * 0.30
+    return `Ginecologia ${g}
+    \n Traumatologia ${t}
+    \n Peditria ${p}`;
+}
+console.log(hotel(500));
