@@ -52,3 +52,12 @@ function sueldo_trabajadores(sueldo_t){
     \n El saldo total a pagar al trabajador es de ${sueldo_total}`;
 }
 console.log(sueldo_trabajadores(500));
+
+
+
+// #6 Periodico EL INFORMADORcobro por avisos
+function periodico(palabras,centimetros,colores){
+    let cobro_aviso = (palabras * 20000) + (centimetros * 15000) + (colores * 25000)
+    return `El costo total del aviso es de ${cobro_aviso}`
+}
+console.log(periodico(10,15,2))
