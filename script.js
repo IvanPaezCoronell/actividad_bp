@@ -123,3 +123,13 @@ function dvd(n_peliculas,dias_peliculas){
     return `El valor total a pagar por el alquiler es ${total_alquiler}`
 }
 console.log(dvd(2,3));
+
+
+
+// #13 Agencia de viajes
+function agencia(n_personas){
+    let valor_sin_iva = n_personas * 25000
+    let iva = (valor_sin_iva * 0.12) + valor_sin_iva
+    return `El total a pagar por el viaje es de ${iva}`; 
+}
+console.log(agencia(4));
