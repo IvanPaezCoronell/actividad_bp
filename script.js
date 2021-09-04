@@ -91,3 +91,13 @@ function alquiler(tarjeta_inicial,tarjeta_final){
     return `El costo de la llamada es de: ${costo_llamada}`
 }
 console.log(alquiler(15,10));
+
+
+
+// #10 cobro por revelado en una fototienda
+function revelado_fotos(n_fotos){
+    let revelado = n_fotos * 1500
+    let costo_final = (revelado * 0.16) + revelado
+    return `El costo total con iva del revelado es de: ${costo_final}`
+}
+console.log(revelado_fotos(2));
