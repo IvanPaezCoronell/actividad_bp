@@ -61,3 +61,12 @@ function periodico(palabras,centimetros,colores){
     return `El costo total del aviso es de ${cobro_aviso}`
 }
 console.log(periodico(10,15,2))
+
+
+
+// #7 Bonos por Antiguedad
+function bonos(anos){
+    let bono_pagar = (anos * 120000) + 100000
+    return `El monto del bono a pagar es de ${bono_pagar}`
+}
+console.log(bonos(5));
