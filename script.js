@@ -70,3 +70,15 @@ function bonos(anos){
     return `El monto del bono a pagar es de ${bono_pagar}`
 }
 console.log(bonos(5));
+
+
+
+// #8 Pago a porfesors de una universidad
+function profesores(horas){
+    let pago_horas = horas * 20000
+    let caja_ahorros = pago_horas * 0.05
+    let descuento = pago_horas - caja_ahorros
+    return `El descuento por concepto de caja de ahorros es de ${caja_ahorros}
+    \n El valor total a pagar al profesor es de ${descuento}` 
+}
+console.log(profesores(8));
